@@ -7,7 +7,7 @@ CBO|campaign budget optimization
 CLV|customer lifetime value
 CPA|cost per action/acquisition
 CPC|cost per click
-CPI|nan
+CPI|cost per install
 CPL|cost per lead
 CPM|cost per mille
 CPR|cost per registration
@@ -21,7 +21,8 @@ CTR|click through rate
 CVR|conversion value rate
 EM|earned media
 EMV|earned media value
-EPI|nan
+EPI|earnings per impression (?)
+EPS|earnings per share
 ER|engagement rate
 KPI|key prformance indicator
 LTV|lifetime value
@@ -30,4 +31,6 @@ OM|owned media
 PM|paid media
 ROI|return on investment
 ROMI|return on marketing investment
+RPM|revenue per thousand impressions
+RTB|real time bidding
 SEO|search engine optimization

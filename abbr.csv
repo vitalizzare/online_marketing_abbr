@@ -1,4 +1,4 @@
-EPI,
+EPI,earnings per impression (?)
 CPM,cost per mille
 CPC,cost per click
 CPL,cost per lead
@@ -21,7 +21,7 @@ CPR,cost per registration
 AMP,accelerated mobile pages (google)
 ROMI,return on marketing investment
 CAC,customer acquisition cost
-CPI,
+CPI,cost per install
 CPT,cost per thousand
 CPV,cost per view
 CVR,conversion value rate
@@ -29,3 +29,6 @@ CLV,customer lifetime value
 EM,earned media
 PM,paid media
 OM,owned media
+RTB,real time bidding
+EPS,earnings per share
+RPM,revenue per thousand impressions
