@@ -19,6 +19,7 @@ CRM|customer relationship management
 CTOR|click to open rate
 CTR|click through rate
 CVR|conversion value rate
+DAU|daily active users
 EM|earned media
 EMV|earned media value
 EPI|earnings per install
@@ -26,6 +27,7 @@ EPS|earnings per share
 ER|engagement rate
 KPI|key prformance indicator
 LTV|lifetime value
+MAU|monthly active users
 OKR|objective and key results
 OM|owned media
 PM|paid media
