@@ -21,7 +21,7 @@ CTR|click through rate
 CVR|conversion value rate
 EM|earned media
 EMV|earned media value
-EPI|earns per install
+EPI|earnings per install
 EPS|earnings per share
 ER|engagement rate
 KPI|key prformance indicator
