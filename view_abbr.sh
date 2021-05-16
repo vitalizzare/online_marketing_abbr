@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 abbr_file="${1:-abbr.csv}"
-echo 'Press Ctrl+D to exit'
+echo 'Press Ctrl+C to exit'
 while read -e -p 'ABBR: ' abbr
 do
     entry=$(sed -n -e "/^${abbr^^},/p" "$abbr_file")
