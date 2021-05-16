@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 abbr_file="${1:-abbr.csv}"
-echo 'Avoid a comma sign'
+echo 'Avoid comma and slash signs'
 echo 'Press Ctrl+D to stop'
 while read -e -p 'ABBR: ' abbr
 do
