@@ -18,5 +18,5 @@ case "$1" in
         --field-separator=, \
         --key=1,1 "$abbr_file" \
     | tr ',' '|' \
-    | sed -e '1iABBR|DEFINITION\n:---|:---' >"$readme_file"
+    | sed -e '1iABBR|DESCRIPTION\n:---|:---' >"$readme_file"
 esac

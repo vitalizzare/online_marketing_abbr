@@ -4,32 +4,19 @@ abbr_file="${1:-abbr.csv}"
 readme_file="${2:-README.md}"
 
 update_readme() {
-    echo " Getting out..."
-    read -e -p "Update $readme_file before exit? [Y/n] " answer
-    case "$answer" in
-    n|N|no|No|NO)
-        echo "$readme_file remained intact"
-        ;;
-    *)
-        error_msg=$(./create_readme.py "$readme_file" "$abbr_file" 2>&1 1>/dev/null)
-        error_code=$?
-        if [ $error_code -eq 0 ] 
-        then 
-            echo "$readme_file is updated" 
-        else
-            echo ERROR $error_code: $error_msg >&2
-        fi
-    esac
+    echo " ..."
+    ./create_readme.sh "$readme_file" "$abbr_file"
+    echo "$readme_file is updated" 
 }
 
 trap "update_readme" EXIT
 
 duplicates="$(./check_abbr_duplicates.sh "$abbr_file")"
-[ "x$duplicates" = "x" ] || \
-{
+if ! [ "x$duplicates" = "x" ]
+then
     echo -e "Resolve duplicate before continue:\n$duplicates" 
     exit 1
-}
+fi
 
 echo 'Press Ctrl+C to stop'
 
