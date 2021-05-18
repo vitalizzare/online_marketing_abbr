@@ -2,6 +2,7 @@ ABBR|DESCRIPTION
 :---|:---
 AMP|accelerated mobile pages (google)
 ARPPU|average revenue per paying user
+ARPU|average revenue per user
 CAC|customer acquisition cost
 CBO|campaign budget optimization
 CLV|customer lifetime value
