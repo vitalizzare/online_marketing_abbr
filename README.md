@@ -10,10 +10,10 @@ CPA|cost per action/acquisition
 CPC|cost per click
 CPI|cost per install
 CPL|cost per lead
-CPM|cost per mille
+CPM|cost per mille (thousand impressions)
 CPR|cost per registration
 CPS|cost per sale
-CPT|cost per thousand
+CPT|cost per thousand impressions (the same as CPM)
 CPV|cost per view
 CR|conversion rate
 CRM|customer relationship management
@@ -23,7 +23,7 @@ CVR|conversion value rate
 DAU|daily active users
 EM|earned media
 EMV|earned media value
-EPI|earnings per install
+EPI|earnings per install/impression
 EPS|earnings per share
 ER|engagement rate
 KPI|key prformance indicator
@@ -34,6 +34,6 @@ OM|owned media
 PM|paid media
 ROI|return on investment
 ROMI|return on marketing investment
-RPM|revenue per thousand impressions
+RPM|revenue per mille (thousand impressions)
 RTB|real time bidding
 SEO|search engine optimization

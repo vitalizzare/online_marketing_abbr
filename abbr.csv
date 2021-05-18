@@ -1,5 +1,5 @@
-EPI,earnings per install
-CPM,cost per mille
+EPI,earnings per install/impression
+CPM,cost per mille (thousand impressions)
 CPC,cost per click
 CPL,cost per lead
 CPS,cost per sale
@@ -22,7 +22,7 @@ AMP,accelerated mobile pages (google)
 ROMI,return on marketing investment
 CAC,customer acquisition cost
 CPI,cost per install
-CPT,cost per thousand
+CPT,cost per thousand impressions (the same as CPM)
 CPV,cost per view
 CVR,conversion value rate
 CLV,customer lifetime value
@@ -31,7 +31,7 @@ PM,paid media
 OM,owned media
 RTB,real time bidding
 EPS,earnings per share
-RPM,revenue per thousand impressions
+RPM,revenue per mille (thousand impressions)
 DAU,daily active users
 MAU,monthly active users
 ARPU,average revenue per user
